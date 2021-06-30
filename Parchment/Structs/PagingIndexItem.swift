@@ -5,10 +5,10 @@ import UIKit
 /// make the `PagingItem` comparable.
 public struct PagingIndexItem: PagingItem, Hashable, Comparable {
     /// The index of the `PagingItem` instance
-    public let index: Int
+    public var index: Int
 
     /// The title used in the menu cells.
-    public let title: String
+    public var title: String
 
     /// Creates an instance of `PagingIndexItem`
     ///
