@@ -157,7 +157,7 @@ public struct PagingOptions {
             height: 4,
             zIndex: Int.max,
             spacing: UIEdgeInsets.zero,
-            insets: UIEdgeInsets(top: 0, left: 8, bottom: 0, right: 8)
+            insets: UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 8)
         )
 
         borderOptions = .visible(
